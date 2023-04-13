@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-function Navbar(){
+import image from '../images/logo.png';
+export const Navbar =()=>{
     return(
         <div className="Navbox">
             <div className="leftside">
-                <img src={logo} alt=""/> 
+                <img src={image} alt=""/> 
 
             </div>
             <div className="rightside"> 
-            <Link to="/signup" className="navlinks">SIGN UP</Link>
+            <Link to="/signup" className="navlinks">SIGNUP</Link>
             <Link to="/login" className="navlinks">LOGIN</Link>
             </div>
             
         </div>
     )
 }
-export default Navbar;
