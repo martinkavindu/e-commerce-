@@ -10,3 +10,8 @@ html,body{
   height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
+@media(max-width:760px){
+  .mybtn{
+    width: 100%;
+  }
+}
